@@ -11,10 +11,12 @@ from email.message import EmailMessage
 
 URL = 'https://disneyland.disney.go.com/passes/blockout-dates/api/get-availability/?product-types=enchant-key-pass&numMonths=2'
 
-sender_email = "yourEmail@email.com"
+# you might have to change the email server in the code block if youre not using gmail
+
+sender_email = "yourEmail@gmail.com"
 sender_password = "yourPassword"
 
-recipient_email = "recipient@email.com"
+recipient_email = "recipient@gmail.com"
 
 start_date = datetime.date(2022, 1, 1)
 end_date = datetime.date(2022, 1, 30)
