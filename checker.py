@@ -11,7 +11,7 @@ from email.message import EmailMessage
 
 URL = 'https://disneyland.disney.go.com/passes/blockout-dates/api/get-availability/?product-types=enchant-key-pass&numMonths=2'
 
-# you might have to change the email server in the code block if youre not using gmail
+# you might have to change the email server in the while loop below if youre not using gmail (smtplib.SMTP_SSL('smtp.gmail.com', 465))
 
 sender_email = "yourEmail@gmail.com"
 sender_password = "yourPassword"
